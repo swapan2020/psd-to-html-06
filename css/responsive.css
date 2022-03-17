@@ -1,0 +1,164 @@
+/* HOME PAGE RESPONSIVE */
+
+@media screen  and (max-width:1200px){
+    .container{
+        max-width:100%;
+        padding:0 1.5rem;
+    }
+    .header-section .container {
+        border-bottom: none;
+    }
+    .contact-form {
+        width: 80%;
+    }
+}
+@media screen  and (max-width:992px){
+    .banner .banner-content {
+        margin-left: 0rem;
+    }
+    .work .single-img {
+        width: 50%;
+    }
+    .box > div {
+        width: 100%;
+        margin: 1rem 0;
+    }
+    .footer ul li:first-child{
+        margin-left:0;
+    }
+}
+@media screen  and (max-width:800px){
+    ul.menu {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: -100%;
+        background: var(--primary);
+        padding-top: 10rem;
+        transition:all .5s ease;
+    }
+    ul.menu.d-flex {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .header-section .menu li{
+        padding-bottom: 1.5rem;
+    }
+    .header-section .menu a {
+        margin-left: 0;
+        font-size: 2.8rem;
+    }
+    .mobile-menu {
+        display: block;
+    }
+    .banner .banner-content .banner-headign {
+        font-size: 4rem;
+    }
+    .banner .banner-content .banner-headign span {
+        font-size: 6rem;
+    }
+    .about .about-left {
+        width: 100%;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    .section-heading p {
+        width: 75%;
+    }
+    .process .process-wrapper {
+        grid-template-columns: auto auto;
+        grid-gap: 70px;
+    }
+    .about .about-left h3 {
+        text-align: center;
+        width: 100%;
+    }
+    .about .about-left p {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .contact-form {
+        width: 100%;
+    }
+}
+@media screen  and (max-width:768px){
+    .banner .banner-content .banner-headign {
+        font-size: 3rem;
+    }
+    .banner .banner-content .banner-headign span {
+        font-size: 5rem;
+    }
+    .banner .banner-content p {
+        width: 90%;
+    }
+    .banner-btn {
+        font-size: 1.5rem;
+    }
+    .error-page h2 {
+        font-size: 22.9rem;
+    }
+    .error-page p {
+        width: 85%;
+    }
+}
+@media screen  and (max-width:600px){
+    body ,html{
+        width:100%;
+        height:auto;
+        overflow-x:hidden;
+    }
+    .section-heading p {
+        width: 90%;
+    }
+    .single-skill {
+        margin-bottom: 3rem;
+    }
+    .work .single-img {
+        width: 100%;
+    }
+    .process .process-wrapper {
+        grid-template-columns: auto;
+    }
+    .brand-wrapper .single-image {
+        width: 25%;
+        margin: 2rem;
+    }
+    .contact-form form input {
+        width: 100%;
+        margin: .8rem 0;
+    }
+    .contact-form form textarea {
+        margin-top: .8rem;
+    }
+    .contact-form form input[type="submit"] {
+        width: 50%;
+    }
+    .error-page p {
+        width: 100%;
+    }
+
+}
+@media screen  and (max-width:576px){
+    .error-page h2 {
+        font-size: 15rem;
+    }
+    .breadcum .bread-content h2 {
+        font-size: 5rem;
+    }
+}
+@media screen  and (max-width:480px){
+    .brand-wrapper .single-image {
+        width: 100%;
+    }
+    .contact-form form input[type="submit"] {
+        width: 80%;
+    }
+    .footer .middle ul li{
+        display:block;
+        margin: 1rem 0;
+    }
+    .breadcum .bread-content h2 {
+        font-size: 3rem;
+    }
+}
